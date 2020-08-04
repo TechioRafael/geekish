@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title> Dragon Ball </title>
+  <!-- CHAMANDO BOOTSTRAP -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="../../../Theme/theme.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <!-- CHAMANDO JAVASCRIPT PARA CORRECAO DAS ATIVIDADES -->
+  <script type="text/javascript" src="DragonBallScript.js"></script>
+  <!-- INSTANCIANDO AUDIOS  -->
+</head>
+
+<body><audio src="./audio/toKnow.mp3" id="audio1"></audio>
+  <audio src="./audio/aSteady.mp3" id="audio2"></audio>
+  <audio src="./audio/youAre.mp3" id="audio3"></audio>
+  <!-- Atribuindo o valor none a o que estiver hidden-->
+  <style type="text/css">
+    .hidden {
+      display: block;
+    }
+  </style>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow-lg bg-dark" id="menu" style="">
+    <div class="container"> <a class="navbar-brand text-primary" href="../../../InitialPages/Index.html" id="textologo">
+        <b><img class="img-fluid rounded-circle pb-2" src="../../../../img/Logo.png" width="25"> Geekish<br></b>
+      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar17" style="">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar17">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"> <a class="nav-link text-primary" href="../../../InitialPages/Index.html" id="textoNavLink3">Home</a> </li>
+          <li class="nav-item"> <a class="nav-link text-primary" href="../../../InitialPages/Recommendations.html" id="textoNavLink">Recommendations</a> </li>
+          <li class="nav-item"> <a class="nav-link text-primary" href="../../../InitialPages/AboutUs.html" id="textoNavLink2">About Us</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- SECTION 1 -->
+  <div class="py-5 text-center shadow-lg bg-dark text-primary" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class=""><b>DRAGON BALL</b></h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12"><img class="img-fluid rounded-circle w-25" src="../../../../img/Activities/Animation/Activities_DragonBall.jpg"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 p-3 order-1 order-md-2 my-3">
+          <h2 class="mb-0">Do the activities and click at the button Check to see if you answer correcly or not</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- SECTION 2 -->
+  <div class="py-5" style="background-image: url(../../../../img/Background/Background_Games.jpg); background-position: left top; background-size: 100%; background-repeat: repeat;">
+    <div class="container bg-dark text-light mb-5 my-3">
+      <div class="row">
+        <div class="col-md-12 bg-light text-dark">
+          <h1 class="display-3">Son Goku</h1>
+          <p class=""><b>He is based on Sun Wukong, a main character in the classic Chinese novel Journey to the West and Superman, with whom he shares a very similar origin story.</b></p>
+          <p class="" style=""><b>Initially believed to have been born on Earth, Goku later learns that he is a member of an extraterrestrial warrior race called the Saiyans, which is also the reason for his superhuman strength, and his birth name is Kakarot. As Goku grows up, he becomes the Earth's mightiest warrior and protects his adopted home planet from those who seek to destroy it. </b></p>
+          <p class=""><b>He is able to concentrate his Ki and use it for devastatingly powerful energy-based attacks; the most prominent being his signature Kamehameha.</b></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 pb-3">
+          <h3 class="" id="titleActivity">What is the birth name of Goku? </h3>
+          <h4 class="text-left" id="AAA"><input type="radio" value="A" name="Activity1question1">Saiyan</h4>
+          <h4 class="text-left" id="AAB"><input type="radio" value="B" name="Activity1question1">Veggeta</h4>
+          <h4 class="text-left" id="AAC"><input type="radio" value="C" name="Activity1question1">Superman</h4>
+          <h4 class="text-left" id="AAD"><input type="radio" value="D" name="Activity1question1">Kakarot</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 pb-3">
+          <h3 class="" id="titleActivity">What is the name of energy who Goku use?</h3>
+          <h4 class="text-left" id="ABA"><input type="radio" value="A" name="Activity1question2">Kamehameha</h4>
+          <h4 class="text-left" id="ABB"><input type="radio" value="B" name="Activity1question2">Ki</h4>
+          <h4 class="text-left" id="ABC"><input type="radio" value="C" name="Activity1question2">Saiyan</h4>
+          <h4 class="text-left" id="ABD"><input type="radio" value="D" name="Activity1question2">Powerful</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 pb-3">
+          <h3 class="" id="titleActivity">Son Goku is based in? </h3>
+          <h4 class="text-left" id="ACA"><input type="radio" value="A" name="Activity1question3">Earth</h4>
+          <h4 class="text-left" id="ACB"><input type="radio" value="B" name="Activity1question3">Kakarot</h4>
+          <h4 class="text-left" id="ACC"><input type="radio" value="C" name="Activity1question3">Sun Wukong</h4>
+          <h4 class="text-left" id="ACD"><input type="radio" value="D" name="Activity1question3">Kamehameha </h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <button class="btn btn-primary text-dark my-3 hidden" id="btnActivity1" onclick="activity1()">Check</button>
+        </div>
+      </div>
+    </div>
+    <div class="container bg-dark text-light mb-5 my-3">
+      <div class="row">
+        <div class="col-md-12 bg-light text-dark">
+          <h1 class="display-3">Son Gohan</h1>
+          <p class=""><b>Chi-Chi is a strict and protective mother to Gohan, forcing him to focus on his studies and forbidding him from practicing martial arts. However, due to the various threats to the Earth, she reluctantly allows him to fight, with him ultimately becoming one of the strongest characters in the series.</b></p>
+          <p class="" style=""><b>Gohan has been well received by both fans and critics, the latter usually citing the character's growth from his initial appearance to his defeat of Cell. </b></p>
+          <p class=""><b>Gohan's name comes from the Japanese word "gohan" ("cooked rice" or "meal of any sort"), a continuation of the naming scheme of foods by Toriyama. Rice, being a grain, is not normally considered to be a vegetable, even though it is a common food.</b></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 pb-3">
+          <h3 class="" id="titleActivity">What is the name of Gohan mother? </h3>
+          <h4 class="text-left" id="BAA"><input type="radio" value="A" name="Activity2question1">Chi-Chi</h4>
+          <h4 class="text-left" id="BAB"><input type="radio" value="B" name="Activity2question1">Toriyama</h4>
+          <h4 class="text-left" id="BAC"><input type="radio" value="C" name="Activity2question1">Rice</h4>
+          <h4 class="text-left" id="BAD"><input type="radio" value="D" name="Activity2question1">Cell</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 pb-3">
+          <h3 class="" id="titleActivity">The name Gohan is a japanese word who translated is?</h3>
+          <h4 class="text-left" id="BBA"><input type="radio" value="A" name="Activity2question2">Cell</h4>
+          <h4 class="text-left" id="BBB"><input type="radio" value="B" name="Activity2question2">Carrot</h4>
+          <h4 class="text-left" id="BBC"><input type="radio" value="C" name="Activity2question2">Vegetal</h4>
+          <h4 class="text-left" id="BBD"><input type="radio" value="D" name="Activity2question2">Rice</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <button class="btn btn-primary text-dark my-3 hidden" id="btnActivity2" onclick="activity2()">Check</button>
+        </div>
+      </div>
+    </div>
+    <!-- Activity 2 -->
+  </div>
+  <div class="py-5 text-center shadow-lg bg-dark text-primary hidden" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center" style="text-align: center">
+          <div class="">
+            <button value="resposta" class="btn btn-primary text-dark hidden" id="btnCheckResults" onclick="score();">Check your pontuation</button>
+          </div>
+          <h1 id="winOrLose"></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- RODAPE -->
+  <div class="bg-dark mt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 text-center bg-dark"><a href="../../../MediaPages/Games.html"><i class="fa fa-gamepad fa-5x m-2 align-items-center flex-grow-0 bg-dark text-primary"></i></a></div>
+        <div class="col-md-2 text-center"><a href="../../../MediaPages/Movies.html"><i class="fa fa-film fa-5x m-2 align-items-center flex-grow-0 text-primary"></i></a></div>
+        <div class="col-md-2 text-center"><a href="../../../MediaPages/Music.html"><i class="fa fa-music fa-5x m-2 align-items-center flex-grow-0 text-primary" style=""></i></a></div>
+        <div class="col-md-2 text-center"><a href="../../../MediaPages/Animations.html"><i class="fa fa-tv fa-5x m-2 align-items-center flex-grow-0 text-primary"></i></a></div>
+        <div class="col-md-2 text-center"><a href="../../../MediaPages/Games.html"><i class="fa fa-gamepad fa-5x m-2 align-items-center flex-grow-0 text-primary"></i></a></div>
+        <div class="col-md-2 text-center"><a href="../../../MediaPages/Movies.html"><i class="fa fa-film fa-5x m-2 align-items-center flex-grow-0 text-primary"></i></a></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center"><a href="../../../InitialPages/Index.html"> <img class="img-fluid rounded-circle pb-2" src="../../../../img/Logo.png" width="50"></a>
+          <p class="text-info"><a href="https://goo.gl/maps/moSoYTpR5iz5Q2kSA" target="_blank"> Av.Araucária, 780 <br>Foz do Iguaçu, PR</a></p>
+          <p class="mb-0 text-info"><b>contact.geekish@gmail.com</b><br></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="mb-0 text-info"><b>© 2019 All rights reserved</b></p>
+          <p class="text-info"><br><b>Rafael Techio - Juliana Kashima - Antonio Carlos</b><br></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p hidden="">
+    <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
+  </p>
+</body>
+
+</html>

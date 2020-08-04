@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title> Overwatch </title>
+  <!-- CHAMANDO BOOTSTRAP -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="../../../Theme/theme.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- CHAMANDO JAVASCRIPT PARA CORRECAO DAS ATIVIDADES -->
+  <script type="text/javascript" src="OverwatchScript.js"></script>
+  <!-- INSTANCIANDO AUDIOS  -->
+   <audio src="./audio/toKnow.mp3" id="audio1"></audio>
+   <audio src="./audio/aSteady.mp3" id="audio2"></audio>
+   <audio src="./audio/youAre.mp3" id="audio3"></audio>
+  <!-- Atribuindo o valor none a o que estiver hidden-->
+  <style type="text/css">
+    .hidden{
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow-lg bg-dark" id="menu" style="">
+    <div class="container"> <a class="navbar-brand text-primary" href="../../../InitialPages/Index.html" id="textologo">
+        <b><img class="img-fluid rounded-circle pb-2" src="../../../../img/Logo.png" width="25"> Geekish<br></b>
+      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar17" style="">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar17">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"> <a class="nav-link text-primary" href="../../../InitialPages/Index.html" id="textoNavLink3">Home</a> </li>
+          <li class="nav-item"> <a class="nav-link text-primary" href="../../../InitialPages/Recommendations.html" id="textoNavLink">Recommendations</a> </li>
+          <li class="nav-item"> <a class="nav-link text-primary" href="../../../InitialPages/AboutUs.html" id="textoNavLink2">About Us</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- SECTION 1 -->
+  <div class="py-5 text-center shadow-lg bg-dark text-primary" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class=""><b>Overwatch</b></h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12"><img class="img-fluid rounded-circle w-25" src="../../../../img/Activities/Games/Activity_Overwatch.jpg"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 p-3 order-1 order-md-2 my-3">
+          <h2 class="mb-0">Do the activities and click at the button Check to see if you answer correcly or not</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- SECTION 2 -->
+  <div class="py-5" style="background-image: url(../../../../img/Background/Background_Games.jpg); background-position: left top; background-size: 100%; background-repeat: repeat;">
+    <div class="container bg-dark text-light mb-5 my-3">
+      <div class="row">
+        <div class="col-md-12 bg-light text-dark">
+          <h1 class="display-3">Mercy</h1>
+          <p class=""><b> A guardian angel to those who come under her care, Dr. Angela Ziegler is a peerless healer, a brilliant scientist, and a staunch advocate for peace.</b></p>
+          <p class=""><b>Ziegler rose to become the head of surgery at a prominent Swiss hospital before pioneering a breakthrough in the field of applied nanobiology that radically improved the treatment of life-threatening illnesses and injuries. It was this expertise that attracted the attention of Overwatch.</b></p>
+          <p class=""><b>Because her parents had been taken by war, Ziegler was opposed to the organization's militaristic approach to keeping global peace. Ultimately, she recognized that Overwatch offered her the opportunity to save lives on a much larger scale. As Overwatch's head of medical research, Angela sought to leverage her work for healing in frontline crises. The result was the Valkyrie swift-response suit, which Ziegler herself piloted on many Overwatch missions. Despite her contributions to Overwatch, she was often at odds with her superiors and the organization's overarching aims. When Overwatch dissolved, Ziegler dedicated herself to helping those affected by war.</b></p>
+          <p class=""><b> Though she spends most of her time caring for the broken and dispossessed in crisis areas around the world, Dr. Ziegler can be counted on to don her Valkyrie suit whenever innocents are imperiled. </b></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 pb-3">
+          <h3 class="" id="titleActivity">What is the name of suit of Mercy?</h3>
+          <h4 class="text-left" id="AAA"><input type="radio" value="A" name="Activity1question1">Kenju</h4>
+          <h4 class="text-left" id="AAB"><input type="radio" value="B" name="Activity1question1">Valkyrie</h4>
+          <h4 class="text-left" id="AAC"><input type="radio" value="C" name="Activity1question1">Savior</h4>
+          <h4 class="text-left" id="AAD"><input type="radio" value="D" name="Activity1question1">Samurai</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 pb-3">
+          <h3 class="" id="titleActivity">What is the name of Mercy?</h3>
+          <h4 class="text-left" id="ABA"><input type="radio" value="A" name="Activity1question2">Ziegler</h4>
+          <h4 class="text-left" id="ABB"><input type="radio" value="B" name="Activity1question2">Farehaa</h4>
+          <h4 class="text-left" id="ABC"><input type="radio" value="C" name="Activity1question2">Lena</h4>
+          <h4 class="text-left" id="ABD"><input type="radio" value="D" name="Activity1question2">Mei-Ling</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 pb-3">
+          <h3 class="" id="titleActivity">Why is Mercy opposed to the organization's militaristic approach?</h3>
+          <h4 class="text-left" id="ACA"><input type="radio" value="A" name="Activity1question3">Because she lost her legs in war</h4>
+          <h4 class="text-left" id="ACB"><input type="radio" value="B" name="Activity1question3">Because she hated politics</h4>
+          <h4 class="text-left" id="ACC"><input type="radio" value="C" name="Activity1question3">Because she lost her husband in the war</h4>
+          <h4 class="text-left" id="ACD"><input type="radio" value="D" name="Activity1question3">Because her parents had been taken by war</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <button class="btn btn-primary text-dark my-3 hidden" id="btnActivity1" onclick="activity1()">Check</button>
+        </div>
+      </div>
+    </div>
+    <!-- Activity 2 -->
+    <div class="container bg-dark text-light mb-5">
+      <div class="row">
+        <div class="col-md-12 text-left bg-dark text-light" style="">
+          <h1 class="display-3">Listen the audios and complete the sentences below.</h1>
+          <!-- Question 1 -->
+          <button onclick="audio1()" class="fa fa-2x fa fa-volume-up" style=""></button>
+          <h2>
+            To know
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question1" id="BAA">
+            is to be at
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question1" id="BAB">
+          </h2>
+          <h3>
+            <span id="atividade2correcao1parte1"></span>
+            <span id="atividade2correcao1parte2"></span>
+          </h3>
+          <!-- Question 2 -->
+          <button onclick="audio2()" class="fa fa-2x fa fa-volume-up" style=""></button>
+          <h2>
+            A 
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question2" id="BBA">
+             blade 
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question2" id="BBB"> 
+             the
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question2" id="BBC">
+          </h2>
+          <h3>
+            <span id="atividade2correcao2parte1"></span>
+            <span id="atividade2correcao2parte2"></span>
+            <span id="atividade2correcao2parte3"></span>
+          </h3>
+          <!-- Question 3 -->
+          <button onclick="audio3()" class="fa fa-2x fa fa-volume-up"></button>
+          <h2>
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question3" id="BCA">
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question3" id="BCB">
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question3" id="BCC">
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question3" id="BCD">
+          </h2>
+          <h3>
+            <span id="atividade2correcao3parte1"></span>
+            <span id="atividade2correcao3parte2"></span>
+            <span id="atividade2correcao3parte3"></span>
+            <span id="atividade2correcao3parte4"></span>
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <button class="btn btn-primary text-dark my-3 hidden" id="btnActivity2" onclick="activity2()">Check</button>
+        </div>
+      </div>
+    </div>
+    <div class="container bg-dark text-light mb-5">
+      <div class="row">
+        <div class="col-md-12 bg-light text-dark">
+          <h1 class="display-3">D.VA</h1>
+          <p class="">D.Va is a former professional gamer who now uses her skills to pilot a state-of-the-art mech in defense of her homeland.</p>
+          <p class="">Twenty years ago, South Korea was attacked by a colossal omnic monstrosity that rose from the depths of the East China Sea. The massive, lumbering construct caused catastrophic damage to coastal cities before it was driven back beneath the waves. In response, the South Korean government developed a mechanized armored drone unit, called MEKA, to protect urban environments in future engagements with the omnic threat.</p>
+          <p class="">The government's fears proved to be well founded, as a disturbing pattern of attacks emerged. Every few years, the monstrosity would rise from the sea to assault South Korea and its neighbors. The omnic learned from these encounters, often reconfiguring itself in a different form and appearing with new weapons and capabilities. Each incident ended in a stalemate, with the monstrosity defeated but not destroyed.</p>
+          <p class="">As the omnic continued to adapt, it eventually disrupted MEKA's drone-control networks, forcing the military to place pilots in the mechs. Scrambling to find suitable candidates, the government turned to the country's professional gamers, who possessed the necessary reflexes and instincts to operate the mechs' advanced weapons systems. Top stars were drafted, including reigning world champion Hana Song, also known as "D.Va." Famous for her elite skills, D.Va was a fierce competitor who played to win at all costs, and she had a well-earned reputation for showing no mercy to her opponents.</p>
+          <p class="">Seeing her new mission as a game, D.Va fearlessly charges into battle alongside the rest of her MEKA unit, ready to spring to her nation's defense at a moment's notice. Recently, she has begun to stream combat operations to her adoring fans, and her growing following has turned her into a global icon.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mb-3 mt-2">
+          <h2>
+            D.VA
+            <input type="text" class="form-control-sm" style="width: 130px;" name="Activity3question1" id="CAA"> 
+            a professional player of games.
+          </h2>
+          <h3>
+            <span id="atividade3correcao1parte1"></span>
+          </h3>
+          <h2>
+            A colossal ominic
+            <input type="text" class="form-control-sm" style="width: 130px;" name="Activity3question2" id="CBA"> 
+            attaked South Corea. 
+          </h2>
+          <h3>
+            <span id="atividade3correcao2parte1"></span>
+          </h3>
+          <h2>
+            D.VA
+            <input type="text" class="form-control-sm" style="width: 130px;" name="Activity3question3" id="CCA"> 
+            good reflexes
+             <input type="text" class="form-control-sm" style="width: 130px;" name="Activity3question3" id="CCB">
+            instincts.
+          </h2>
+          <h3 id="correcao2">
+            <span id="atividade3correcao3parte1"></span>
+            <span id="atividade3correcao3parte2"></span>
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <button class="btn btn-primary text-dark my-3 hidden" id="btnActivity3" onclick="activity3()">Check</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 text-center shadow-lg bg-dark text-primary hidden" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center" style="text-align: center">
+          <div class="">
+            <button value="resposta" class="btn btn-primary text-dark hidden" id="btnCheckResults" onclick="score();">Check your pontuation</button>
+          </div>
+          <h1 id="winOrLose"></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- RODAPE -->
+  <div class="bg-dark mt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 text-center bg-dark"><a href="../../../MediaPages/Games.html"><i class="fa fa-gamepad fa-5x m-2 align-items-center flex-grow-0 bg-dark text-primary"></i></a></div>
+        <div class="col-md-2 text-center"><a href="../../../MediaPages/Movies.html"><i class="fa fa-film fa-5x m-2 align-items-center flex-grow-0 text-primary"></i></a></div>
+        <div class="col-md-2 text-center"><a href="../../../MediaPages/Music.html"><i class="fa fa-music fa-5x m-2 align-items-center flex-grow-0 text-primary" style=""></i></a></div>
+        <div class="col-md-2 text-center"><a href="../../../MediaPages/Animations.html"><i class="fa fa-tv fa-5x m-2 align-items-center flex-grow-0 text-primary"></i></a></div>
+        <div class="col-md-2 text-center"><a href="../../../MediaPages/Games.html"><i class="fa fa-gamepad fa-5x m-2 align-items-center flex-grow-0 text-primary"></i></a></div>
+        <div class="col-md-2 text-center"><a href="../../../MediaPages/Movies.html"><i class="fa fa-film fa-5x m-2 align-items-center flex-grow-0 text-primary"></i></a></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center"><a href="../../../InitialPages/Index.html"> <img class="img-fluid rounded-circle pb-2" src="../../../../img/Logo.png" width="50"></a>
+          <p class="text-info"><a href="https://goo.gl/maps/moSoYTpR5iz5Q2kSA" target="_blank"> Av.Araucária, 780 <br>Foz do Iguaçu, PR</a></p>
+          <p class="mb-0 text-info"><b>contact.geekish@gmail.com</b><br></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="mb-0 text-info"><b>© 2019 All rights reserved</b></p>
+          <p class="text-info"><br><b>Rafael Techio - Juliana Kashima - Antonio Carlos</b><br></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

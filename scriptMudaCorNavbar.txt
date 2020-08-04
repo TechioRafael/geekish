@@ -1,0 +1,44 @@
+<script type="text/javascript">
+    /*
+    acrescente jQuery - jQuery é uma biblioteca do JavaScript que tem funcionalidades extremamente úteis
+    */
+    jQuery(function() {
+      jQuery(window).scroll(function() {
+        //pego o objeto com id section1 com a função offset que me dá as coordenadas do ojeto
+        var sec1 = $("#section1").offset();
+        var sec2 = $("#section2").offset();
+        // quando houver o scroll o jquery vai reconhecer mas apenas quando o scroll passar do ponto top do objeto com a id section1 que ele entra no if, antes disso não
+        if (jQuery(this).scrollTop() > sec1.top && jQuery(this).scrollTop() < sec5.top) {
+          // pego o objeto com a id menu(eu coloquei essa id na navbar, no caso)
+          // removo a classe bg-dark - que deixa preto
+          // e adiciono a classe bg-primary - que deixa amarelo
+          $("#menu").removeClass("bg-dark");
+          $("#menu").addClass("bg-primary");
+          // pego o objeto com a id textologo(eu coloquei essa id no container da navbar, no caso)
+          // removo a classe text-primary - que deixa amarelo
+          // e adiciono a classe text-dark - que deixa preto
+          $("#textologo").removeClass("text-primary");
+          $("#textologo").addClass("text-dark");
+          $("#textoNavLink").removeClass("text-primary");
+          $("#textoNavLink").addClass("text-dark");
+          $("#textoNavLink2").removeClass("text-primary");
+          $("#textoNavLink2").addClass("text-dark");
+          $("#textoNavLink3").removeClass("text-primary");
+          $("#textoNavLink3").addClass("text-dark");
+        } else
+        if (jQuery(this).scrollTop() < sec1.top || jQuery(this).scrollTop() > sec5.top) {
+          // aqui faço o processo inverso do if anterior
+          $("#menu").removeClass("bg-light");
+          $("#menu").addClass("bg-dark");
+          $("#textologo").removeClass("text-dark");
+          $("#textologo").addClass("text-primary");
+          $("#textoNavLink").removeClass("text-dark");
+          $("#textoNavLink").addClass("text-primary");
+          $("#textoNavLink2").removeClass("text-dark");
+          $("#textoNavLink2").addClass("text-primary");
+          $("#textoNavLink3").removeClass("text-dark");
+          $("#textoNavLink3").addClass("text-primary");
+        }
+      });
+    });
+  </script>

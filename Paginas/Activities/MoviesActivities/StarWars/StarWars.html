@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title> Star Wars</title>
+  <!-- CHAMANDO BOOTSTRAP -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="../../../Theme/theme.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- CHAMANDO JAVASCRIPT PARA CORRECAO DAS ATIVIDADES -->
+  <script type="text/javascript" src="StarWarsScript.js"></script>
+  <!-- INSTANCIANDO AUDIOS  -->
+   <audio src="./audio/star-wars_everyWord.mp3" id="audio1"></audio>
+   <audio src="./audio/star-wars_heignites.mp3" id="audio2"></audio>
+   <audio src="./audio/star-wars_iwillnotbe.mp3" id="audio3"></audio>
+  <!-- Atribuindo o valor none a o que estiver hidden-->
+  <style type="text/css">
+    .hidden{
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow-lg bg-dark" id="menu" style="">
+    <div class="container"> <a class="navbar-brand text-primary" href="../../../InitialPages/Index.html" id="textologo">
+        <b><img class="img-fluid rounded-circle pb-2" src="../../../../img/Logo.png" width="25"> Geekish<br></b>
+      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar17" style="">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar17">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"> <a class="nav-link text-primary" href="../../../InitialPages/Index.html" id="textoNavLink3">Home</a> </li>
+          <li class="nav-item"> <a class="nav-link text-primary" href="../../../InitialPages/Recommendations.html" id="textoNavLink">Recommendations</a> </li>
+          <li class="nav-item"> <a class="nav-link text-primary" href="../../../InitialPages/AboutUs.html" id="textoNavLink2">About Us</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- SECTION 1 -->
+  <div class="py-5 text-center shadow-lg bg-dark text-primary" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class=""><b>Star Wars</b></h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12"><img class="img-fluid rounded-circle w-25" src="../../../../img/Activities/Movies/Activity_StarWars.jpg"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 p-3 order-1 order-md-2 my-3">
+          <h2 class="mb-0">Do the activities and click at the button Check to see if you answer correcly or not</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- SECTION 2 -->
+  <div class="py-5" style="background-image: url(../../../../img/Background/Background_Movies.jpg); background-position: left top; background-size: 100%; background-repeat: repeat;">
+    <div class="container bg-dark text-light mb-5 my-3">
+      <div class="row">
+        <div class="col-md-12 bg-light text-dark">
+          <h1 class="display-3">Luke Skywalker</h1>
+          <p class=""><b> Luke Skywalker is a fictional character and the main protagonist of the original film trilogy of the Star Wars. Luke is a pivotal figure in the Rebel Alliance's struggle against the Galactic Empire, a friend and eventual brother-in-law of smuggler Han Solo, and unknown to him until Return of the Jedi, the twin brother of Rebellion leader Princess Leia. He trains under Jedi Masters Obi-Wan Kenobi and Yoda, and is the son of Anakin Skywalker and Padmé Amidala. He mentors Rey, the protagonist of the sequel trilogy, and is the maternal uncle of Kylo Ren, the antagonist of the sequel trilogy.</b></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 pb-3">
+          <h3 class="" id="titleActivity">Who did Luke struggle in Star Wars series?</h3>
+          <h4 class="text-left" id="AAA"><input type="radio" value="A" name="Activity1question1">Jedi Masters</h4>
+          <h4 class="text-left" id="AAB"><input type="radio" value="B" name="Activity1question1">Rebel Alliance</h4>
+          <h4 class="text-left" id="AAC"><input type="radio" value="C" name="Activity1question1">Galactic Empire</h4>
+          <h4 class="text-left" id="AAD"><input type="radio" value="D" name="Activity1question1">Anakin Skywalker</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 pb-3">
+          <h3 class="" id="titleActivity">Luke Skywalker is the brother of?</h3>
+          <h4 class="text-left" id="ABA"><input type="radio" value="A" name="Activity1question2">Han Solor</h4>
+          <h4 class="text-left" id="ABB"><input type="radio" value="B" name="Activity1question2">Yoda</h4>
+          <h4 class="text-left" id="ABC"><input type="radio" value="C" name="Activity1question2">Anakin Skywalker</h4>
+          <h4 class="text-left" id="ABD"><input type="radio" value="D" name="Activity1question2">Princess Leia</h4>
+        </div>
+      </div>
+    <div class="row">
+        <div class="col-md-12 text-center">
+          <button class="btn btn-primary text-dark my-3 hidden" id="btnActivity1" onclick="activity1()">Check</button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Activity 2 -->
+    <div class="container bg-dark text-light mb-5">
+      <div class="row">
+        <div class="col-md-12 text-left bg-dark text-light" style="">
+          <h1 class="display-3">Title</h1>
+          <!-- Question 1 -->
+          <button onclick="audio1()" class="fa fa-2x fa fa-volume-up" style=""></button>
+          <h2>
+            Amazing
+            <span id = "valordigitado"><input type="text" class="form-control-sm" style="width:130px" name="Activity2question1" id="BAA"></span> 
+            word of which
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question1" id="BAB">
+            just
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question1" id="BAC">
+             is
+             <input type="text" class="form-control-sm" style="width:130px" name="Activity2question1" id="BAD">
+          </h2>
+          <h3>
+            <span id="atividade2correcao1parte1"></span>
+            <span id="atividade2correcao1parte2"></span>
+            <span id="atividade2correcao1parte3"></span>
+            <span id="atividade2correcao1parte4"></span>
+          </h3>
+          <!-- Question 2 -->
+          <button onclick="audio2()" class="fa fa-2x fa fa-volume-up" style=""></button>
+          <h2>
+            He
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question2" id="BBA">
+            it and
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question2" id="BBB"> 
+            his
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question2" id="BBC">
+             <input type="text" class="form-control-sm" style="width:130px" name="Activity2question2" id="BBD">
+          </h2>
+          <h3>
+            <span id="atividade2correcao2parte1"></span>
+            <span id="atividade2correcao2parte2"></span>
+            <span id="atividade2correcao2parte3"></span>
+            <span id="atividade2correcao2parte4"></span>
+          </h3>
+          <!-- Question 3 -->
+          <button onclick="audio3()" class="fa fa-2x fa fa-volume-up"></button>
+          <h2>
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question3" id="BCA">
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question3" id="BCB">
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question3" id="BCC">
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question3" id="BCD">
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question3" id="BCE">
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question3" id="BCF">
+            <input type="text" class="form-control-sm" style="width:130px" name="Activity2question3" id="BCG">
+          </h2>
+          <h3>
+            <span id="atividade2correcao3parte1"></span>
+            <span id="atividade2correcao3parte2"></span>
+            <span id="atividade2correcao3parte3"></span>
+            <span id="atividade2correcao3parte4"></span>
+            <span id="atividade2correcao3parte5"></span>
+            <span id="atividade2correcao3parte6"></span>
+            <span id="atividade2correcao3parte7"></span>
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <button class="btn btn-primary text-dark my-3 hidden" id="btnActivity2" onclick="activity2()">Check</button>
+        </div>
+      </div>
+    </div>
+    <div class="container bg-dark text-light mb-5">
+      <div class="row">
+        <div class="col-md-12 bg-light text-dark">
+          <h1 class="display-3">Kylo Ren</h1>
+          <p class="">"Kylo Ren" is the chosen name of Ben Solo, the son of original Star Wars trilogy characters Han Solo and Leia Organa. Though trained by his uncle Luke Skywalker as a Jedi, he has been seduced to the dark side of the Force by Supreme Leader Snoke and aspires to be as powerful as his grandfather, Darth Vader.</p>
+          <p class="">Ren is the master of the Knights of Ren, as well as a commander and later the Supreme Leader of the First Order, an organization spawned from the former Galactic Empire. Kylo Ren has a different light saber then others jedis.</p>
+          <p class="">Complete the sentences below</p>
+          <p class="">Has      Is     Was      As </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mb-3 mt-2">
+          <h2>
+            Kylo Ren 
+            <input type="text" class="form-control-sm" style="width: 130px;" name="Activity3question1" id="CAA"> 
+            trained by Luke Skywalker.
+          </h2>
+          <h3>
+            <span id="atividade3correcao1parte1"></span>
+          </h3>
+          <h2>
+           Kylo ominic
+            <input type="text" class="form-control-sm" style="width: 130px;" name="Activity3question2" id="CBA"> 
+            the son of Leia and Han Solo. 
+          </h2>
+          <h3>
+            <span id="atividade3correcao2parte1"></span>
+          </h3>
+          <h2>
+           Kylo
+            <input type="text" class="form-control-sm" style="width: 130px;" name="Activity3question3" id="CCA"> 
+             been seduced, and wanted to be strong
+             <input type="text" class="form-control-sm" style="width: 130px;" name="Activity3question3" id="CCB">
+            your grandfather.
+          </h2>
+          <h3 id="correcao2">
+            <span id="atividade3correcao3parte1"></span>
+            <span id="atividade3correcao3parte2"></span>
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <button class="btn btn-primary text-dark my-3 hidden" id="btnActivity3" onclick="activity3()">Check</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 text-center shadow-lg bg-dark text-primary hidden" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center" style="text-align: center">
+          <div class="">
+            <button value="resposta" class="btn btn-primary text-dark hidden" id="btnCheckResults" onclick="score();">Check your pontuation</button>
+          </div>
+          <h1 id="winOrLose"></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- RODAPE -->
+  <div class="bg-dark mt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 text-center bg-dark"><a href="../../../MediaPages/Games.html"><i class="fa fa-gamepad fa-5x m-2 align-items-center flex-grow-0 bg-dark text-primary"></i></a></div>
+        <div class="col-md-2 text-center"><a href="../../../MediaPages/Movies.html"><i class="fa fa-film fa-5x m-2 align-items-center flex-grow-0 text-primary"></i></a></div>
+        <div class="col-md-2 text-center"><a href="../../../MediaPages/Music.html"><i class="fa fa-music fa-5x m-2 align-items-center flex-grow-0 text-primary" style=""></i></a></div>
+        <div class="col-md-2 text-center"><a href="../../../MediaPages/Animations.html"><i class="fa fa-tv fa-5x m-2 align-items-center flex-grow-0 text-primary"></i></a></div>
+        <div class="col-md-2 text-center"><a href="../../../MediaPages/Games.html"><i class="fa fa-gamepad fa-5x m-2 align-items-center flex-grow-0 text-primary"></i></a></div>
+        <div class="col-md-2 text-center"><a href="../../../MediaPages/Movies.html"><i class="fa fa-film fa-5x m-2 align-items-center flex-grow-0 text-primary"></i></a></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center"><a href="../../../InitialPages/Index.html"> <img class="img-fluid rounded-circle pb-2" src="../../../../img/Logo.png" width="50"></a>
+          <p class="text-info"><a href="https://goo.gl/maps/moSoYTpR5iz5Q2kSA" target="_blank"> Av.Araucária, 780 <br>Foz do Iguaçu, PR</a></p>
+          <p class="mb-0 text-info"><b>contact.geekish@gmail.com</b><br></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="mb-0 text-info"><b>© 2019 All rights reserved</b></p>
+          <p class="text-info"><br><b>Rafael Techio - Juliana Kashima - Antonio Carlos</b><br></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

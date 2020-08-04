@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title> Fullmetal Alchemist </title>
+  <!-- CHAMANDO BOOTSTRAP -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="../../../Theme/theme.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <!-- CHAMANDO JAVASCRIPT PARA CORRECAO DAS ATIVIDADES -->
+  <script type="text/javascript" src="FullmetalAlchemistScript.js"></script>
+  <!-- INSTANCIANDO AUDIOS  -->
+</head>
+
+<body>
+  <!-- Atribuindo o valor none a o que estiver hidden-->
+  <style type="text/css">
+    .hidden {
+      display: block;
+    }
+  </style>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow-lg bg-dark" id="menu" style="">
+    <div class="container"> <a class="navbar-brand text-primary" href="../../../InitialPages/Index.html" id="textologo">
+        <b><img class="img-fluid rounded-circle pb-2" src="../../../../img/Logo.png" width="25"> Geekish<br></b>
+      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar17" style="">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar17">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"> <a class="nav-link text-primary" href="../../../InitialPages/Index.html" id="textoNavLink3">Home</a> </li>
+          <li class="nav-item"> <a class="nav-link text-primary" href="../../../InitialPages/Recommendations.html" id="textoNavLink">Recommendations</a> </li>
+          <li class="nav-item"> <a class="nav-link text-primary" href="../../../InitialPages/AboutUs.html" id="textoNavLink2">About Us</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- SECTION 1 -->
+  <div class="py-5 text-center shadow-lg bg-dark text-primary" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class=""><b>Fullmetal Alchemist</b></h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12"><img class="img-fluid rounded-circle w-25" src="../../../../img/Activities/Animation/Activities_FullmetalAlchmist.jpg"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 p-3 order-1 order-md-2 my-3">
+          <h2 class="mb-0">Do the activities and click at the button Check to see if you answer correcly or not</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- SECTION 2 -->
+  <div class="py-5" style="background-image: url(../../../../img/Background/Background_Games.jpg); background-position: left top; background-size: 100%; background-repeat: repeat;">
+    <div class="container bg-dark text-light mb-5 my-3">
+      <div class="row">
+        <div class="col-md-12 bg-light text-dark">
+          <h1 class="display-3">Edward Elric</h1>
+          <p class=""><b> Edward, titled "Alchemist of Steel", is the youngest State Alchemist in the history of the fictional country of Amestris. His left leg was divinely severed in a failed attempt to resurrect his dead mother, and then his right arm was taken in exchange for his brother's soul. His missing limbs have been replaced with sophisticated prosthetics called automail . </b></p>
+          <p class=""><b>He and his younger brother, Alphonse, who lost his entire body and is spiritually bound to a suit of armor, scour the world in search of the Philosopher's Stone in the hopes of restoring their bodies. </b></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 pb-3">
+          <h3 class="" id="titleActivity">What is the surname of Edward?</h3>
+          <h4 class="text-left" id="AAA"><input type="radio" value="A" name="Activity1question1">Alchemist of Steel</h4>
+          <h4 class="text-left" id="AAB"><input type="radio" value="B" name="Activity1question1">Full Metal</h4>
+          <h4 class="text-left" id="AAC"><input type="radio" value="C" name="Activity1question1">State Alchemist</h4>
+          <h4 class="text-left" id="AAD"><input type="radio" value="D" name="Activity1question1">Philosopher's Stone</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 pb-3">
+          <h3 class="" id="titleActivity">What Edward work?</h3>
+          <h4 class="text-left" id="ABA"><input type="radio" value="A" name="Activity1question2">Mechanical</h4>
+          <h4 class="text-left" id="ABB"><input type="radio" value="B" name="Activity1question2">State Alchemist</h4>
+          <h4 class="text-left" id="ABC"><input type="radio" value="C" name="Activity1question2">Forger</h4>
+          <h4 class="text-left" id="ABD"><input type="radio" value="D" name="Activity1question2">Librarian</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 pb-3">
+          <h3 class="" id="titleActivity">What body part Edward lost to revive her mom?</h3>
+          <h4 class="text-left" id="ACA"><input type="radio" value="A" name="Activity1question3">Right leg</h4>
+          <h4 class="text-left" id="ACB"><input type="radio" value="B" name="Activity1question3">Right arm</h4>
+          <h4 class="text-left" id="ACC"><input type="radio" value="C" name="Activity1question3">Left arm</h4>
+          <h4 class="text-left" id="ACD"><input type="radio" value="D" name="Activity1question3">Left leg</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center" style="">
+          <button class="btn btn-primary text-dark my-3 hidden" id="btnActivity1" onclick="activity1()">Check</button>
+        </div>
+      </div>
+    </div>
+    <!-- Activity 2 -->
+    <div class="container bg-dark text-light mb-5">
+      <div class="row">
+        <div class="col-md-12 bg-light text-dark">
+          <h1 class="display-3">Alphonse Elric</h1>
+          <p class="">Alphonse is a child who lost his body during an alchemical experiment to bring his deceased mother back to life and had his soul attached to a suit of armor by his older brother Edward. As a result, Alphonse is almost invulnerable as long as the armor's seal is not erased, but is unable to feel anything.</p>
+          <p class="">To recover their bodies, the Elrics travel around their country Amestris to obtain the Philosopher's Stone an alchemical object that could restore them.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mb-3 mt-2">
+          <h2> Alphonse uses an armor because he and <input type="text" class="form-control-sm" style="width: 130px;" name="Activity3question1" id="CAA"> brother try revive <input type="text" class="form-control-sm" style="width: 130px;" name="Activity3question2" id="CBA">mom, in consequence he lost your body, because <input type="text" class="form-control-sm" style="width: 130px;" name="Activity3question3" id="CCA"> the alchemist<input type="text" class="form-control-sm" style="width: 130px;" name="Activity3question3" id="CCB"> trade is equivalent. </h2>
+          <h3>
+            <span id="atividade3correcao1parte1"></span>
+            <span id="atividade3correcao2parte1"></span>
+            <span id="atividade3correcao3parte1"></span>
+            <span id="atividade3correcao4parte1"></span>
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <button class="btn btn-primary text-dark my-3 hidden" id="btnActivity3" onclick="activity3()">Check</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 text-center shadow-lg bg-dark text-primary hidden" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center" style="text-align: center">
+          <div class="">
+            <button value="resposta" class="btn btn-primary text-dark hidden" id="btnCheckResults" onclick="score();">Check your pontuation</button>
+          </div>
+          <h1 id="winOrLose"></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- RODAPE -->
+  <div class="bg-dark mt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 text-center bg-dark"><a href="../../../MediaPages/Games.html"><i class="fa fa-gamepad fa-5x m-2 align-items-center flex-grow-0 bg-dark text-primary"></i></a></div>
+        <div class="col-md-2 text-center"><a href="../../../MediaPages/Movies.html"><i class="fa fa-film fa-5x m-2 align-items-center flex-grow-0 text-primary"></i></a></div>
+        <div class="col-md-2 text-center"><a href="../../../MediaPages/Music.html"><i class="fa fa-music fa-5x m-2 align-items-center flex-grow-0 text-primary" style=""></i></a></div>
+        <div class="col-md-2 text-center"><a href="../../../MediaPages/Animations.html"><i class="fa fa-tv fa-5x m-2 align-items-center flex-grow-0 text-primary"></i></a></div>
+        <div class="col-md-2 text-center"><a href="../../../MediaPages/Games.html"><i class="fa fa-gamepad fa-5x m-2 align-items-center flex-grow-0 text-primary"></i></a></div>
+        <div class="col-md-2 text-center"><a href="../../../MediaPages/Movies.html"><i class="fa fa-film fa-5x m-2 align-items-center flex-grow-0 text-primary"></i></a></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center"><a href="../../../InitialPages/Index.html"> <img class="img-fluid rounded-circle pb-2" src="../../../../img/Logo.png" width="50"></a>
+          <p class="text-info"><a href="https://goo.gl/maps/moSoYTpR5iz5Q2kSA" target="_blank"> Av.Araucária, 780 <br>Foz do Iguaçu, PR</a></p>
+          <p class="mb-0 text-info"><b>contact.geekish@gmail.com</b><br></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="mb-0 text-info"><b>© 2019 All rights reserved</b></p>
+          <p class="text-info"><br><b>Rafael Techio - Juliana Kashima - Antonio Carlos</b><br></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p hidden="">
+    <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
+  </p>
+</body>
+
+</html>
